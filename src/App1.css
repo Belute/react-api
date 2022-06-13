@@ -1,0 +1,160 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+body {
+    background: #3598dc;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+    height: 400px;
+    padding: 10px 25px;
+    margin: 10vh auto;
+    background: #fff;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+   
+ 
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input {
+    width: 100%;
+    height: 100%;
+    background-color: #3598dc;
+    border-style: solid;
+}
+
+
+.button {
+    text-align: center;
+    
+    width: 45%;
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    
+    
+}
+
+
+.button1 {
+    margin-top: 5%;
+    width: 45%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+
+.button2 {
+    text-align: center;
+    margin-top: 20%;
+    width: 45%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+
+
+}
+
+
+
+
+.input {
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.button:hover {
+    background: #3570dc;
+}
+
+.button1:hover {
+    background: #3570dc;
+}
+
+.button2:hover {
+    background: #3570dc;
+}
+
+.img {
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px #888888;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+
+.name {
+    margin-top: 5%;
+}
+
+
+@media only screen and (min-width : 280px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .container {
+        width: 60%
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .container {
+        width: 40%
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .container {
+        width: 30%
+    }
+}
