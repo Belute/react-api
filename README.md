@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Description
 
-This project is designed for learning purposes. This is a login form based on React. It enters a window where the information displayed is obtained from https://randomuser.me/api/ by entering the ##username (labas) and ##password (123).
+This project is designed for learning purposes. This is a login form based on React. It enters a window where the information displayed is obtained from https://randomuser.me/api/ by entering the #username (labas) and password (123).
 
 ## Available Scripts
 
